@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+body {
+    background-image: url(../public/bg-desktop-dark.jpg);
+    background-repeat: no-repeat;
+    background-color: hsl(237, 14%, 26%);
+    font-size: 18px;
+    font-family:'Jost', sans-serif;
+}
+.hello {
+    color:white;
+    font-weight: 700;
+}
+.main-container {
+    width: 50%;
+    background-color: red;
+    margin: 100px auto;
+    background-color: hsl(233, 14%, 35%);
+}
+.radioInput {
+    color: white;
+    list-style: none;
+    border-bottom: 1px solid rgba(241, 240, 240, 0.355);
+    padding: 15px
+    
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.4;
+    transform: scale(1.5); /* Makes the radio buttons larger */
+}
+
+input[type="radio"]:checked {
+    accent-color: #4CAF50; 
+}
+
+label {
+    margin-right: 100px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle; /* Aligns labels with radio buttons vertically */
+    text-indent: 10px;
+}
